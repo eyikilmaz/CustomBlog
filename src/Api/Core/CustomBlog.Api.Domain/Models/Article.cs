@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomBlog.Api.Domain.Models;
 
-public class Article
+public class Article : BaseEntity
 {
     public string Subject { get; set; }
     public string Content { get; set; }

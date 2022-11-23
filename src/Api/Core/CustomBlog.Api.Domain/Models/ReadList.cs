@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomBlog.Api.Domain.Models;
 
-public class ReadList
+public class ReadList : BaseEntity
 {
     public Guid ArticleId { get; set; }
     public Guid CreatedById { get; set; }

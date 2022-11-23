@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CustomBlog.Api.Domain.Models
+namespace CustomBlog.Api.Domain.Models;
+
+public class EmailConfirmation : BaseEntity
 {
-    internal class EmailConfirmation
-    {
-    }
+    public string OldEmailAddress { get; set; }
+    public string NewEmailAddress { get; set; }
 }
