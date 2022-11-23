@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3CEC678D-E348-40C3-A985-E7439E52B9C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{1BB767F5-03FD-46B2-9195-B645EF38B057}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{42EA17E6-F33A-47BA-B635-06E6FBC081F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{ACF15A6B-AB9C-4444-92E9-7E587078C1D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{8F1E1E4C-7804-4AC0-906E-08E35345EA15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomBlog.Api.Domain", "src\Api\Core\CustomBlog.Api.Domain\CustomBlog.Api.Domain.csproj", "{DBCD0658-285A-4196-B202-62C4B8C5B43D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBCD0658-285A-4196-B202-62C4B8C5B43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCD0658-285A-4196-B202-62C4B8C5B43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCD0658-285A-4196-B202-62C4B8C5B43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCD0658-285A-4196-B202-62C4B8C5B43D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BB767F5-03FD-46B2-9195-B645EF38B057} = {3CEC678D-E348-40C3-A985-E7439E52B9C1}
+		{42EA17E6-F33A-47BA-B635-06E6FBC081F7} = {1BB767F5-03FD-46B2-9195-B645EF38B057}
+		{ACF15A6B-AB9C-4444-92E9-7E587078C1D7} = {1BB767F5-03FD-46B2-9195-B645EF38B057}
+		{8F1E1E4C-7804-4AC0-906E-08E35345EA15} = {1BB767F5-03FD-46B2-9195-B645EF38B057}
+		{DBCD0658-285A-4196-B202-62C4B8C5B43D} = {42EA17E6-F33A-47BA-B635-06E6FBC081F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E32D5B45-562B-45A8-8B46-907B6B97FA41}
+	EndGlobalSection
+EndGlobal
