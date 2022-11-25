@@ -29,7 +29,7 @@ public class CustomBlogContext : DbContext
 	DbSet<ArticleComment> ArticleComments { get; set; }
 	DbSet<ArticleCommentFavorite> ArticleCommentFavorites { get; set; }
 	DbSet<EmailConfirmation> EmailConfirmations { get; set; }
-	DbSet<UserReadList> UserReadLists { get; set; }
+	DbSet<UserReadSaved> UserReadLists { get; set; }
 
 	protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 	{

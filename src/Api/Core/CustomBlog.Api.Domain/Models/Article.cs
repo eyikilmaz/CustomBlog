@@ -15,4 +15,5 @@ public class Article : BaseEntity
     public virtual User CreatedBy { get; set; }
     public virtual ICollection<ArticleComment> ArticleComments { get; set; }
     public virtual ICollection<ArticleFavorite> ArticleFavorites { get; set; }
+    public virtual ICollection<UserReadSaved> UserReadLists { get; set; }
 }
