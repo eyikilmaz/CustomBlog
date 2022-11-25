@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CustomBlog.Api.Domain.Models;
 
-public class BaseEntity : BaseEntity
+public class BaseEntity
 {
     public Guid Id { get; set; }
     public DateTime CreateDate { get; set; }

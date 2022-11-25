@@ -18,4 +18,6 @@ public class User : BaseEntity
 
     public virtual ICollection<Article> Articles { get; set; }
     public virtual ICollection<ArticleFavorite> ArticleFavorites { get; set; }
+    public virtual ICollection<ArticleComment> ArticleComments { get; set; }
+    public virtual ICollection<UserReadList> ArticleReadLists { get; set; }
 }
