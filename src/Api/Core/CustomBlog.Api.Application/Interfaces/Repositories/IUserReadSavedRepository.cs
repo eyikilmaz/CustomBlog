@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 
 namespace CustomBlog.Api.Application.Interfaces.Repositories;
 
-internal interface IUserReadSavedRepository : IGenericRepository<UserReadSaved>
+public interface IUserReadSavedRepository : IGenericRepository<UserReadSaved>
 {
 }
