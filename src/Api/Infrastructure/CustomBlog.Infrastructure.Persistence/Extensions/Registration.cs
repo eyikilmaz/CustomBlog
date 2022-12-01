@@ -19,7 +19,7 @@ public static class Registration
     {
         services.AddDbContext<CustomBlogContext>(conf =>
         {
-            var connStr = configuration[""].ToString();
+            var connStr = configuration["CustomBlogDbConnectionString"].ToString();
             conf.UseSqlServer(connStr, opt =>
             {
                 opt.EnableRetryOnFailure();
