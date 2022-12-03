@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CustomBlog.Api.Domain.Models;
 using CustomBlog.Common.Models.Queries;
+using CustomBlog.Common.Models.RequestModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,10 @@ public class MappingProfile : Profile
     {
         CreateMap<User, LoginUserViewModel>()
             .ReverseMap();
+
+        CreateMap<CreateUserCommand, User>();
+
+        CreateMap<UpdateUserCommand, User>();
 
     }
 }
